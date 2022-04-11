@@ -1,0 +1,3 @@
+C:/Users/neha2/CLionProjects/Companies_tests/cmake-build-debug/CMakeFiles/swiggy.dir
+C:/Users/neha2/CLionProjects/Companies_tests/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/neha2/CLionProjects/Companies_tests/cmake-build-debug/CMakeFiles/rebuild_cache.dir
