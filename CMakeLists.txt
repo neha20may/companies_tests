@@ -3,4 +3,4 @@ project(Companies_tests)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(swiggy swiggy.cpp media.net/no_max_heap.cpp media.net/sum_tree_nodes.cpp)
+add_executable(swiggy swiggy.cpp media.net/no_max_heap.cpp media.net/sum_tree_nodes.cpp hevo_data/baloon.cpp tekion/binary_search_range.cpp meesho/distinct_moves.cpp)

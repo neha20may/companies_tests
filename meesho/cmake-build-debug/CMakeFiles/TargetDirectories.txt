@@ -1,0 +1,4 @@
+C:/Users/neha2/CLionProjects/Companies_tests/meesho/cmake-build-debug/CMakeFiles/dm.dir
+C:/Users/neha2/CLionProjects/Companies_tests/meesho/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/neha2/CLionProjects/Companies_tests/meesho/cmake-build-debug/CMakeFiles/dm2.dir
+C:/Users/neha2/CLionProjects/Companies_tests/meesho/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Companies_tests
+# Project: Project
 # Configurations: Debug
 # =============================================================================
 
@@ -39,87 +39,90 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/neha2/CLionProjects/Companies_tests/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/neha2/CLionProjects/Companies_tests/meesho/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target swiggy
+# Object build statements for EXECUTABLE target dm
 
 
 #############################################
-# Order-only phony target for swiggy
+# Order-only phony target for dm
 
-build cmake_object_order_depends_target_swiggy: phony || CMakeFiles/swiggy.dir
+build cmake_object_order_depends_target_dm: phony || CMakeFiles/dm.dir
 
-build CMakeFiles/swiggy.dir/swiggy.cpp.obj: CXX_COMPILER__swiggy_Debug C$:/Users/neha2/CLionProjects/Companies_tests/swiggy.cpp || cmake_object_order_depends_target_swiggy
-  DEP_FILE = CMakeFiles\swiggy.dir\swiggy.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\swiggy.dir
-  OBJECT_FILE_DIR = CMakeFiles\swiggy.dir
-
-build CMakeFiles/swiggy.dir/media.net/no_max_heap.cpp.obj: CXX_COMPILER__swiggy_Debug C$:/Users/neha2/CLionProjects/Companies_tests/media.net/no_max_heap.cpp || cmake_object_order_depends_target_swiggy
-  DEP_FILE = CMakeFiles\swiggy.dir\media.net\no_max_heap.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\swiggy.dir
-  OBJECT_FILE_DIR = CMakeFiles\swiggy.dir\media.net
-
-build CMakeFiles/swiggy.dir/media.net/sum_tree_nodes.cpp.obj: CXX_COMPILER__swiggy_Debug C$:/Users/neha2/CLionProjects/Companies_tests/media.net/sum_tree_nodes.cpp || cmake_object_order_depends_target_swiggy
-  DEP_FILE = CMakeFiles\swiggy.dir\media.net\sum_tree_nodes.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\swiggy.dir
-  OBJECT_FILE_DIR = CMakeFiles\swiggy.dir\media.net
-
-build CMakeFiles/swiggy.dir/hevo_data/baloon.cpp.obj: CXX_COMPILER__swiggy_Debug C$:/Users/neha2/CLionProjects/Companies_tests/hevo_data/baloon.cpp || cmake_object_order_depends_target_swiggy
-  DEP_FILE = CMakeFiles\swiggy.dir\hevo_data\baloon.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\swiggy.dir
-  OBJECT_FILE_DIR = CMakeFiles\swiggy.dir\hevo_data
-
-build CMakeFiles/swiggy.dir/tekion/binary_search_range.cpp.obj: CXX_COMPILER__swiggy_Debug C$:/Users/neha2/CLionProjects/Companies_tests/tekion/binary_search_range.cpp || cmake_object_order_depends_target_swiggy
-  DEP_FILE = CMakeFiles\swiggy.dir\tekion\binary_search_range.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\swiggy.dir
-  OBJECT_FILE_DIR = CMakeFiles\swiggy.dir\tekion
-
-build CMakeFiles/swiggy.dir/meesho/distinct_moves.cpp.obj: CXX_COMPILER__swiggy_Debug C$:/Users/neha2/CLionProjects/Companies_tests/meesho/distinct_moves.cpp || cmake_object_order_depends_target_swiggy
-  DEP_FILE = CMakeFiles\swiggy.dir\meesho\distinct_moves.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\swiggy.dir
-  OBJECT_FILE_DIR = CMakeFiles\swiggy.dir\meesho
+build CMakeFiles/dm.dir/distinct_moves.cpp.obj: CXX_COMPILER__dm_Debug C$:/Users/neha2/CLionProjects/Companies_tests/meesho/distinct_moves.cpp || cmake_object_order_depends_target_dm
+  DEP_FILE = CMakeFiles\dm.dir\distinct_moves.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\dm.dir
+  OBJECT_FILE_DIR = CMakeFiles\dm.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target swiggy
+# Link build statements for EXECUTABLE target dm
 
 
 #############################################
-# Link the executable swiggy.exe
+# Link the executable dm.exe
 
-build swiggy.exe: CXX_EXECUTABLE_LINKER__swiggy_Debug CMakeFiles/swiggy.dir/swiggy.cpp.obj CMakeFiles/swiggy.dir/media.net/no_max_heap.cpp.obj CMakeFiles/swiggy.dir/media.net/sum_tree_nodes.cpp.obj CMakeFiles/swiggy.dir/hevo_data/baloon.cpp.obj CMakeFiles/swiggy.dir/tekion/binary_search_range.cpp.obj CMakeFiles/swiggy.dir/meesho/distinct_moves.cpp.obj
+build dm.exe: CXX_EXECUTABLE_LINKER__dm_Debug CMakeFiles/dm.dir/distinct_moves.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\swiggy.dir
+  OBJECT_DIR = CMakeFiles\dm.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = swiggy.exe
-  TARGET_IMPLIB = libswiggy.dll.a
-  TARGET_PDB = swiggy.exe.dbg
+  TARGET_FILE = dm.exe
+  TARGET_IMPLIB = libdm.dll.a
+  TARGET_PDB = dm.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\neha2\CLionProjects\Companies_tests\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\neha2\CLionProjects\Companies_tests\meesho\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dm2
+
+
+#############################################
+# Order-only phony target for dm2
+
+build cmake_object_order_depends_target_dm2: phony || CMakeFiles/dm2.dir
+
+build CMakeFiles/dm2.dir/disticnt_moves_2.cpp.obj: CXX_COMPILER__dm2_Debug C$:/Users/neha2/CLionProjects/Companies_tests/meesho/disticnt_moves_2.cpp || cmake_object_order_depends_target_dm2
+  DEP_FILE = CMakeFiles\dm2.dir\disticnt_moves_2.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\dm2.dir
+  OBJECT_FILE_DIR = CMakeFiles\dm2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dm2
+
+
+#############################################
+# Link the executable dm2.exe
+
+build dm2.exe: CXX_EXECUTABLE_LINKER__dm2_Debug CMakeFiles/dm2.dir/disticnt_moves_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dm2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = dm2.exe
+  TARGET_IMPLIB = libdm2.dll.a
+  TARGET_PDB = dm2.exe.dbg
 
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\neha2\CLionProjects\Companies_tests\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\neha2\CLionProjects\Companies_tests -BC:\Users\neha2\CLionProjects\Companies_tests\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\neha2\CLionProjects\Companies_tests\meesho\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\neha2\CLionProjects\Companies_tests\meesho -BC:\Users\neha2\CLionProjects\Companies_tests\meesho\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -129,7 +132,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build swiggy: phony swiggy.exe
+build dm: phony dm.exe
+
+build dm2: phony dm2.exe
 
 # =============================================================================
 # Folder targets.
@@ -137,9 +142,14 @@ build swiggy: phony swiggy.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/neha2/CLionProjects/Companies_tests/cmake-build-debug
+# Folder: C:/Users/neha2/CLionProjects/Companies_tests/meesho/cmake-build-debug
 
-build all: phony swiggy.exe
+build all: phony dm.exe dm2.exe
+
+# =============================================================================
+# Unknown Build Time Dependencies.
+# Tell Ninja that they may appear as side effects of build rules
+# otherwise ordered by order-only dependencies.
 
 # =============================================================================
 # Built-in targets
